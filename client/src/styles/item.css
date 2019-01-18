@@ -1,0 +1,30 @@
+#li {
+    width: 500px;
+    color: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lip {
+    width: 400px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.completeButton {
+    height: 20px;
+    border-radius: 100%;
+    margin: 10px 0px 10px -30px;
+    outline: none;
+}
+
+.removeButton {
+    border: none;
+    color: lightslategray;
+    font-size: 20px;
+}
+
+.removeButton:hover {
+    color: red;
+}

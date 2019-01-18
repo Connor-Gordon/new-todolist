@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "json-server": "^0.14.2",
+    "shortid": "^2.2.14"
+  },
+  "scripts": {
+    "start": "concurrently \"json-server db.json -p 3001\" \"cd client && npm start\""
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3"
+  }
+}

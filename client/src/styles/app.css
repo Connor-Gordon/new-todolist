@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #mainContainer {
+      width: 550px;
+      margin: auto;
+  }
